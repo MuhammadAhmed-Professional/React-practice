@@ -1,4 +1,4 @@
-import Navigation from "../components/navigation"
+import Navigation from "../components/Navigation"
 import StudentCard from "../components/StudentCard"
 
 const Task1 = () => {
