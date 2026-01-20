@@ -3,11 +3,7 @@ import Navigation from "../components/navigation";
 
 const Task4 = () => {
 
-  let [task, setTask] = useState('')
-  let [taskData, setTaskData] = useState([])
-  function addTask () {
-
-  }
+  let [task, setTask] = useState("")
   return (
     <div>
       <div className="w-full h-svh flex flex-col gap-5 justify-center items-center">
@@ -20,10 +16,6 @@ const Task4 = () => {
               <h1 className="text-2xl bg-pink-300 p-2.5 rounded-lg">➕</h1>
             </button>
           </form>
-
-          <ul className="">
-            
-          </ul>
         </div>
         <Navigation
           prev="Task-3"
